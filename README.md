@@ -1,3 +1,9 @@
+# 说明
+## 该项目源自于开源项目VoiceStreamAI，并在此基础上做了如下修改
+- 添加翻译功能，原始项目只是将语音转换成文本，为此引入Claude Sonnet模型用于文本翻译
+- 调整Faster Whisper模型参数以保证在g4dn实例上运行
+- 调整代码目录从而方便部署
+- 调整字体样式便于重点显示翻译后的内容
 # VoiceStreamAI
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
